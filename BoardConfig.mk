@@ -68,6 +68,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/twrp.fstab
+LZMA_RAMDISK_TARGETS := recovery
 
 # TWRP specific flags
 TW_THEME := portrait_hdpi
