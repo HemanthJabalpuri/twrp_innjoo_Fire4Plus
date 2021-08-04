@@ -80,6 +80,7 @@ TW_DEFAULT_BRIGHTNESS := 255
 
 # Some flags to get smaller recovery.img
 TW_USE_TOOLBOX := true
+TW_EXCLUDE_ENCRYPTED_BACKUPS := true
 #TW_EXTRA_LANGUAGES := true
 TW_NO_EXFAT := true
 TW_EXCLUDE_SUPERSU := true
