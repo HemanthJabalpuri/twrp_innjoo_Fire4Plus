@@ -75,3 +75,9 @@ TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_SCREEN_BLANK_ON_BOOT := true
+
+# Exclude
+TW_EXCLUDE_BASH := true
+TW_EXCLUDE_NANO := true
+TW_EXCLUDE_TZDATA := true
+TW_EXCLUDE_MTP := true
