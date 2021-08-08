@@ -78,6 +78,10 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 255
 
+# Debug
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
+
 # Some flags to get smaller recovery.img
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_ENCRYPTED_BACKUPS := true
