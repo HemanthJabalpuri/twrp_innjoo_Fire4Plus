@@ -1,0 +1,3 @@
+persist.sys.sw.touch.level=0x18
+persist.sys.sw.touch.para.c=0x0c
+persist.sys.sw.touch.para.r=0x06
